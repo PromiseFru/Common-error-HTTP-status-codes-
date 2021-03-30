@@ -7,6 +7,7 @@
 * 500 Internal server error – This is a generic server error. It probably shouldn’t be thrown explicitly.
 * 502 Bad Gateway – This indicates an invalid response from an upstream server.
 * 503 Service Unavailable – This indicates that something unexpected happened on server side (It can be anything like server overload, some parts of the system failed, etc.).
+* 409 Conflict - This means there is conflict with the current state of the resource.
 
 HTTP response status codes indicate whether a specific HTTP request has been successfully completed. Responses are grouped in five classes:
 
